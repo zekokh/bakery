@@ -2,7 +2,9 @@
 lock '3.1.0'
 
 set :application, 'bakery'
-set :repo_url, 'git@github.com:zekokh/bakery.git'
+set :repo_url, 'https://github.com/zekokh/bakery.git'
+
+# set :repo_url, 'git@github.com:zekokh/bakery.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
